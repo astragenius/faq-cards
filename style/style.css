@@ -1,2 +1,144 @@
+
+:root {
+
+    --dark-blue: hsl(238, 29%, 16%);
+    --soft-red: #f47c57;
+    --soft-violet: #af67e9;
+    --soft-blue: #6565e7;
+    --dark-grey-blue: rgb(74, 75, 94);
+    --grey-blue: hsl(240, 6%, 50%);
+    --light-grey-blue: hsl(240, 5%, 91%);
+}
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+
+  
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+   /*  background: rgb(101,101,231);
+    background: linear-gradient(0deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 84%);  */
+   /*  height: 100vh; */
+}
+
+section {
+
+   background-color: lightgrey;
+   padding: 20px;
+   border-radius: 20px;
+
+}
+
+.flex-container {
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.faq-wrapper {
+
+    /* width: 100%; */
+    
+}
+
+h1 {
+
+    font-size: 40px;
+}
+
+.accordion {
+
+    
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+
+
+}
+
+.active, .accordion:hover {
+
+    background-color:hsl(228, 45%, 44%);
+}
+
+.panel {
+
+   
+    padding: 0 18px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+   
+    
+}
+
+p {
+
+    display: inline-block;
+    height: 50px;
+    
+}
+
+.img-wrapper {
+
+    
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-image: url(/images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
